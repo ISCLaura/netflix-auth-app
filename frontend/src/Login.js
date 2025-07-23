@@ -1,7 +1,7 @@
 // src/Login.js
 import React, { useState } from 'react';
 import axios from 'axios';
-    const Login = () => {
+    const Login = ({ setToken }) => {
     const [isRegistering, setIsRegistering] = useState(false);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
